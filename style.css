@@ -1,0 +1,8 @@
+.fbar a:hover {
+	text-decoration:underline;
+}
+
+.fbar2 a {
+	text-decoration:none;
+	color:#666;
+}
