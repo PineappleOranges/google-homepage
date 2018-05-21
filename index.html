@@ -5,11 +5,30 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body style="height:100%; margin:0; font-family:arial,serif">
+	<div id=header class="fbar; fbar2; head" style="position:absolute; right:0; width:100%; top:15px">
+		<div style="position:absolute; margin:7px 0 0 10px; font-size:13px">
+			<a href="https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header">About</a>
+			<a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a>
+		</div>
+		<div style="position:absolute; margin:7px 0 0 10px; width:100%; min-width:238px; float:right; display:flex; justify-content:flex-end; padding-left:30px; padding-right:30px; position:relative">
+			<div>
+				<a>Gmail</a>
+				<a>Images</a>
+			</div>
+			<div>
+				<a class="grid" href="https://www.google.com/intl/en/options/" title="Google apps" role="button" tabindex="0" aria-expanded="false"></a>
+				<div style="padding:0 0 0 15px; margin-left:0 !important; margin-right:0 !important; line-height:normal; text-align:left; white-space:nowrap">
+					<a class="signin" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/" target="_top">Sign in</a>
+				</div>
+			</div>
+		</div>	
+	</div>
+
 	<center>
 		<div style="height:233px; margin-top:89px">
 			<img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="padding-top:109px" width="272" height"92">
 		</div>
-		<div style="height:44px; max-width:484px; vertical-align:2px; border-radius:2px; box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08); transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);">
+		<div style="height:44px; max-width:584px; vertical-align:2px; border-radius:2px; box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08); transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);">
 			<div id="searchform">
 				<form action="https://www.google.com/search" style="overflow-visible;" method="GET" >
 				<input maxlength="2048" style="border: medium none; padding:0px; margin:0px; height:auto; width:100%; background:transparent; left:0px; outline:medium none currentcolor; font: 16px arial,sans-serif; line-height:34px; height:34px !important" type="text" name="q" type="text"/>
@@ -24,17 +43,19 @@
 		</div>
 	</center>
 
-	<div class="fbar2" id="footer" style="bottom:0; font-size:10pt; height:35px; position:absolute; width:100%; margin:0 auto; min-width:980px; font-family:arial, sans-serif; display:block; color:#666">
-		<div class="fbar" style="background:#f2f2f2; border-top:1px solid #e4e4e4; line-height:40px; left:0; right:0">	
-			<span style="font-size:small; white-space:nowrap">
-				<a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" style="padding-left:27px; margin:0 !important; line-height:40px; color:#666">Advertising</a>
-				<a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none" style="padding-left:27px; margin:0 !important; line-height:40px">Business</a>
-			</span>
-			<span style="margin-left:30px; float:right; font-size:small; white-space:nowrap; margin-right:30px">
-				<a href="https://policies.google.com/privacy?hl=en&gl=us" style="padding-left:27px; margin:0 !important; line-height:40px">Privacy</a>
-				<a href="https://policies.google.com/terms?hl=en&gl=us" style="padding-left:27px; margin:0 !important; line-height:40px">Terms</a>
-				<a style="padding-left:27px; margin:0 !important; line-height:40px">Settings</a>
-			</span>
+	<div class="fbar2" id="footer" style="bottom:0; font-size:10pt; height:35px; position:absolute; width:100%; margin:0 auto; min-width:980px; font-family:arial, sans-serif; display:inline-block; color:#666">
+		<div class="fbar" style="background:#f2f2f2; border-top:1px solid #e4e4e4; left:0; right:0">	
+			<div style="line-height:40px">
+				<span style="font-size:small; white-space:nowrap">
+					<a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" style="padding-left:27px; margin:0 !important; color:#666">Advertising</a>
+					<a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none" style="padding-left:27px; margin:0 !important">Business</a>
+				</span>
+				<span style="margin-left:30px; float:right; font-size:small; white-space:nowrap; margin-right:30px">
+					<a href="https://policies.google.com/privacy?hl=en&gl=us" style="padding-left:27px; margin:0 !important">Privacy</a>
+					<a href="https://policies.google.com/terms?hl=en&gl=us" style="padding-left:27px; margin:0 !important">Terms</a>
+					<a style="padding-left:27px; margin:0 !important">Settings</a>
+				</span>
+			</div>
 		</div>
 	</div>
 </body>
