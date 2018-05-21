@@ -2,14 +2,9 @@ Project Assignment for The Odin Project
 
 Build the Google.com homepage. (Easy Version)
 
-Update: 05/14/2018
-Worked on the footer some more:
-- Figured out how to use classes with parents/children a little bit
-- Underline on hover
-- Actual links to appropriate URLs
-
 Work to be done:
-- Header
+- Sign in button is misaligned for some reason. Tired of working on this page, so 
+    I'm going to consider this finished.
 - CSS file hardly used, messy unorganized HTML file
 - Possible finish last footer link: Settings has popup menu with hyperlinks
 - Possible add hover feature to Google Search and I'm Feeling Lucky
